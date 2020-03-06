@@ -1,0 +1,17 @@
+version: 1.0
+kind: MDWikiConfig
+host: localhost
+entryPoint: "/"
+templatePath: "./template"
+assetsPath: "/assets"
+faviconPath: "/assets/favicon.ico"
+markdownPath: "./TestDataMD"
+bindJS: True
+bindCSS: True
+bindFavicon: True
+CSS:
+  - style1.css
+  - style2.css
+JS:
+  - script1.js
+  - script2.js
